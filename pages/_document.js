@@ -68,6 +68,10 @@ class MyDocument extends Document {
             content="minimum-scale=1, initial-scale=1, width=device-width, shrink-to-fit=no"
           />
           <meta
+            name="description"
+            content="Tired of next.js toy examples that cannot be used in real, complex, business projects? This is for you"
+          />
+          <meta
             name="theme-color"
             content={
               pageContext ? pageContext.theme.palette.primary.main : null
@@ -75,7 +79,7 @@ class MyDocument extends Document {
           />
           <link
             rel="stylesheet"
-            href="https://fonts.googleapis.com/css?family=Roboto:300,400,500"
+            href="https://fonts.googleapis.com/css?family=Lato:400"
           />
         </Head>
         <body>

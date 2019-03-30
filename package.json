@@ -6,8 +6,6 @@
   "scripts": {
     "build": "next build",
     "dev": "NODE_ENV=dev node server/server.js",
-    "format": "prettier --write 'src/**/*.{js,jsx,css,scss}'",
-    "lint": "eslint 'src/**/*.{js,jsx}' --fix",
     "start": "NODE_ENV=production node server/server.js"
   },
   "lint-staged": {
