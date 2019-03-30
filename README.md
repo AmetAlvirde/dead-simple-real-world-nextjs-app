@@ -3,9 +3,12 @@
 Tired of next.js toy examples that cannot be used in real, complex, business
 projects? This is for you.
 
-## What's inside:
+There's also an [advanced real world Nextjs app][14], which is a fairly more
+complex version of this app. If you are looking for a starter kit that is not
+just the barebones for a real world app, then I highly recommend you to check
+it out.
 
-This starter kit got you covered. It has:
+## What's inside:
 
 - A custom server with compression. After build, app scores on [lighthouse][1]:
   - Performance: 99
@@ -83,3 +86,4 @@ Husky for it to set its git hooks.
 [11]: https://github.com/okonet/lint-staged
 [12]: https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint
 [13]: http://google.comhttps://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode
+[14]: https://github.com/AmetAlvirde/advanced-real-world-nextjs-app
