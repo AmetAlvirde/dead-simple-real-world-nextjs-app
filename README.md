@@ -19,8 +19,11 @@ it out.
   - You can login using user: `admin` password: `password`
   - Local, hardcoded auth on `server/router/index.js`, not production
     ready, obviously. You get the flexibility to connect it to a database, SDK,
-    2FA, or any authentication method you want. As simple as that.
+    2FA, or any authentication method you want. As simple as that
 - Redux with [react-redux][2] and [redux-tunk][3] architecture
+- A redux store with cleanup mechanism (All reducers reset to initial state
+  after logout)
+- Redux devtools are only enabled in dev mode
 - [Material-ui][4] support with SSR (JSS)
 - [Styled components][5] with SSR (yes, both css-in-js libraries together with
   SSR)

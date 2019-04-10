@@ -39,6 +39,7 @@
     "react-redux": "^6.0.1",
     "redux": "^4.0.1",
     "redux-devtools-extension": "^2.13.8",
+    "redux-multi": "^0.1.12",
     "redux-thunk": "^2.3.0",
     "styled-components": "^4.2.0",
     "styled-jsx": "^3.2.1"
